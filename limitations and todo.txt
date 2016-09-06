@@ -1,0 +1,11 @@
+1) It must pull the csv file from a specific location I have pre-defined in the script. This can be seen in the script on line 15, and I have it currently set to “C:\Users\scot5644\Desktop\import1.csv”. For the time being if you wanted to run/test this script you would just need to change this location to where your csv is. If it’s on your desktop you should be able to just change my username to yours and the csv filename to yours. 
+
+I’ll probably end up having it prompt for the location, or use the same directory the script is on, or both. Unsure if I can have it read the username of the computer you're logged into and let them choose normal directories like my documents/downloads
+
+2) It does not export the passwords for new users, although I have it to display these in the output when it creates the users inside powershell itself. So we’re half way there on that one in the sense we can see the new passwords in powershell, I just need a way to get it to export that data.
+
+The problem is when I have it export the details, it does it for each user. Need some way to keep passwords, or to append to a file instead of replacing it.
+
+3) It only sets users as "Password Admins".
+
+Need to setup some input to ask which admin permissions. If possible also have it let you choose who gets what admin roles, maybe have that be a field in the csv if possible.
