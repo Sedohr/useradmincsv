@@ -1,0 +1,8 @@
+*** 9/18/2016 ***
+-Changed it to force users to set new password upon login.
+-Exports passwords for all users to csv file isntead of just the last user.
+-Pulls from the same directory of the script instead of needing to specify the location.
+-Prompts for the csv filename.
+
+*** 9/4/2016 ***
+-Creation of Script
